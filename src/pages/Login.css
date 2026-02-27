@@ -1,0 +1,137 @@
+/* Page wrapper (NOW fits full website layout) */
+.login-page {
+  width: 100%;
+  padding: 60px 6%;
+  background: #f4f7f6;
+  min-height: 85vh;
+  box-sizing: border-box;
+}
+
+/* Center only the card, not the whole page */
+.login-wrapper {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+/* Glass Card */
+.login-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Header */
+.login-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #2d3436;
+  font-weight: 800;
+}
+
+.login-header p {
+  margin-top: 8px;
+  color: #636e72;
+  font-size: 0.95rem;
+}
+
+/* Error */
+.error-alert {
+  background: #ffe3e3;
+  color: #c92a2a;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Inputs */
+.input-field {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-field label {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.input-field input {
+  padding: 13px 14px;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.25s;
+}
+
+.input-field input:focus {
+  border-color: #4dabf7;
+  box-shadow: 0 0 0 3px rgba(77, 171, 247, 0.2);
+}
+
+/* Button */
+.login-btn {
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  background: #4dabf7;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.login-btn:hover {
+  background: #339af0;
+  transform: translateY(-1px);
+}
+
+/* Footer */
+.login-footer {
+  font-size: 0.9rem;
+  color: #636e72;
+}
+
+.login-footer a {
+  color: #4dabf7;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Admin box */
+.admin-credential-box {
+  margin-top: 8px;
+  padding: 14px;
+  background: #f1f3f5;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: 1px dashed #ced4da;
+}
+
+.admin-credential-box code {
+  display: block;
+  margin-top: 6px;
+  background: #e9ecef;
+  padding: 6px;
+  border-radius: 6px;
+  font-weight: 600;
+}
