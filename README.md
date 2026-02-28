@@ -87,6 +87,12 @@ eventsphere-frontend
 ```
 ---
 
+## 🌐 Live Deployment
+
+🔗 **Live URL:** [http://3.235.106.175](http://3.235.106.175)
+
+---
+
 ## 📸 Deployment Screenshots
 
 ![Application Running](./screenshots/app-running.png)
