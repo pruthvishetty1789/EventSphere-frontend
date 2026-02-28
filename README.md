@@ -95,8 +95,8 @@ eventsphere-frontend
 
 ## 📸 Deployment Screenshots
 
-![Application Running](./screenshots/app-running.png)
+## 📸 Deployment Screenshots
 
-![Docker Containers](./screenshots/docker-ps.png)
-
-![Nginx Configuration](./screenshots/nginx-config.png)
+- [Application Running](./screenshots/app-running.png)
+- [Docker Containers](./screenshots/docker-ps.png)
+- [Nginx Configuration](./screenshots/nginx-config.png)
